@@ -9,7 +9,7 @@ import { TaskContextProvider } from './projects/project1/TaskContext'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <TaskContextProvider>
-      <App />
+      <App/>
     </TaskContextProvider>
   </React.StrictMode>
 )

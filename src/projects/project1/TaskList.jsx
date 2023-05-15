@@ -12,7 +12,7 @@ export default function TaskList() {
         return <h1>No hay tareas</h1>;
     }
     return (
-        <div className="taskContainer">
+        <div className='grid grid-cols-4 gap-2'>
             {
                 tasks.map((task, i) => (
                     <TaskCard task = {task} key={task.id}/>
